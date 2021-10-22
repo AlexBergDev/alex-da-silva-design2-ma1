@@ -1,0 +1,130 @@
+/* Background pattern from Toptal Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/greek-vase-pattern/) */
+
+body {
+  background-image: url("../images/ui/background.png");
+}
+
+.error-container {
+  margin-top: 100px;
+}
+
+.newsletter-container {
+  margin-bottom: 110px;
+}
+
+.icon-container {
+  margin-left: 25px;
+}
+
+.icon-container i {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.icon-container i:hover {
+  color: grey !important;
+  transition: 0.3s ease;
+}
+
+.card-img-top {
+  height: 320px;
+  object-fit: cover;
+}
+
+.rounded {
+  border-radius: 8px !important;
+}
+
+.btn {
+  border-radius: 8px !important;
+}
+
+.btn:hover {
+  background-color: grey !important;
+  transition: 0.3s ease;
+  border: 1px solid grey;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  filter: brightness(80%);
+}
+
+.carousel {
+  margin-top: 53px;
+}
+
+.card:hover {
+  transition: 0.1s ease;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  color: black !important;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.cta {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review-side {
+  height: 610px;
+}
+
+.image-review {
+  object-fit: cover;
+}
+
+.load-more:hover {
+  cursor: pointer;
+  transition: 0.1s ease;
+  opacity: 0.6;
+}
+
+.navbar-brand img {
+  height: 45px;
+  margin: -5px;
+  padding: 0px;
+}
+
+.navbar-hamburger_icon img {
+  max-width: 34px;
+}
+
+@media screen and (max-width: 575px) {
+  .carousel-item img {
+    height: 300px;
+  }
+
+  .review-side {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .icon-container {
+    margin-left: -60px !important;
+  }
+
+  .icon-container i {
+    font-size: 20px !important;
+    padding: 2px;
+  }
+
+  .nav-item {
+    font-size: 20px;
+  }
+}
