@@ -1,15 +1,40 @@
-/* Background pattern from Toptal Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/greek-vase-pattern/) */
+/* Variables */
+:root {
+  --dark: #282828;
+  --accent: #fffee4;
+}
 
+/* Layout */
+/* Background pattern from Toptal Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/greek-vase-pattern/) */
 body {
   background-image: url("../images/ui/background.png");
 }
 
-.error-container {
-  margin-top: 100px;
+.bg-dark {
+  background-color: var(--dark) !important;
 }
 
-.newsletter-container {
-  margin-bottom: 110px;
+.text-dark {
+  color: var(--dark) !important;
+}
+
+.btn-dark {
+  background-color: var(--dark) !important;
+}
+
+.rounded {
+  border-radius: 8px !important;
+}
+
+/* Elements */
+.btn {
+  border-radius: 8px !important;
+}
+
+.btn:hover {
+  background-color: grey !important;
+  transition: 0.3s ease;
+  border: 1px solid grey;
 }
 
 .icon-container {
@@ -26,39 +51,15 @@ body {
   transition: 0.3s ease;
 }
 
-.card-img-top {
-  height: 320px;
-  object-fit: cover;
+/* Navigation */
+.navbar-brand img {
+  height: 45px;
+  margin: -5px;
+  padding: 0px;
 }
 
-.rounded {
-  border-radius: 8px !important;
-}
-
-.btn {
-  border-radius: 8px !important;
-}
-
-.btn:hover {
-  background-color: grey !important;
-  transition: 0.3s ease;
-  border: 1px solid grey;
-}
-
-.carousel-item img {
-  height: 500px;
-  object-fit: cover;
-  filter: brightness(80%);
-}
-
-.carousel {
-  margin-top: 53px;
-}
-
-.card:hover {
-  transition: 0.1s ease;
-  opacity: 0.8;
-  cursor: pointer;
+.navbar-hamburger_icon img {
+  max-width: 34px;
 }
 
 .navbar-toggler {
@@ -69,8 +70,43 @@ body {
   color: black !important;
 }
 
-footer a {
-  text-decoration: none;
+/* Carousel */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  filter: brightness(80%);
+}
+
+.carousel {
+  margin-top: 53px;
+}
+
+/* Product container */
+.card-img-top {
+  height: 320px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transition: 0.1s ease;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.load-more:hover {
+  cursor: pointer;
+  transition: 0.1s ease;
+  opacity: 0.6;
+}
+
+/* Newsletter container */
+.newsletter-container {
+  margin-bottom: 110px;
+}
+
+/* Review container */
+.review-container {
+  background-color: var(--accent);
 }
 
 .cta {
@@ -88,33 +124,24 @@ footer a {
   object-fit: cover;
 }
 
-.load-more:hover {
-  cursor: pointer;
-  transition: 0.1s ease;
-  opacity: 0.6;
+/* 404 page */
+.error-container {
+  margin-top: 100px;
 }
 
-.navbar-brand img {
-  height: 45px;
-  margin: -5px;
-  padding: 0px;
+/* Footer */
+footer a {
+  text-decoration: none;
 }
 
-.navbar-hamburger_icon img {
-  max-width: 34px;
-}
-
-@media screen and (max-width: 575px) {
-  .carousel-item img {
-    height: 300px;
-  }
-
-  .review-side {
-    height: 450px;
-  }
-}
-
+/* --- md screen size --- */
 @media screen and (max-width: 989px) {
+  /* Navigation */
+  .nav-item {
+    font-size: 20px;
+  }
+
+  /* Elements */
   .icon-container {
     margin-left: -60px !important;
   }
@@ -123,8 +150,17 @@ footer a {
     font-size: 20px !important;
     padding: 2px;
   }
+}
 
-  .nav-item {
-    font-size: 20px;
+/* --- sm screen size --- */
+@media screen and (max-width: 575px) {
+  /* Carousel */
+  .carousel-item img {
+    height: 300px;
+  }
+
+  /* Review container */
+  .review-side {
+    height: 450px;
   }
 }
