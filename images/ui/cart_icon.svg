@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="145.02" height="126.458" viewBox="0 0 145.02 126.458">
+  <g id="Component_2_1" data-name="Component 2 – 1" transform="translate(6 6.958)">
+    <line id="Line_2" data-name="Line 2" x2="102" transform="translate(30 20)" fill="none" stroke="#282828" stroke-linecap="round" stroke-width="12"/>
+    <line id="Line_3" data-name="Line 3" x2="84.5" transform="translate(37.75 71)" fill="none" stroke="#282828" stroke-linecap="round" stroke-width="12"/>
+    <line id="Line_4" data-name="Line 4" x1="9.75" y2="51" transform="translate(122.25 20)" fill="none" stroke="#282828" stroke-linecap="round" stroke-width="12"/>
+    <line id="Line_5" data-name="Line 5" x2="16" y2="90" transform="translate(24)" fill="none" stroke="#282828" stroke-linecap="round" stroke-width="12"/>
+    <line id="Line_6" data-name="Line 6" x2="24" fill="none" stroke="#282828" stroke-linecap="round" stroke-width="12"/>
+    <line id="Line_7" data-name="Line 7" x2="76.625" transform="translate(40 90)" fill="none" stroke="#282828" stroke-linecap="round" stroke-width="12"/>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(42.5 100.5)" fill="#fff" stroke="#282828" stroke-width="12">
+      <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+      <circle cx="9.5" cy="9.5" r="3.5" fill="none"/>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(97.5 100.5)" fill="#fff" stroke="#282828" stroke-width="12">
+      <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+      <circle cx="9.5" cy="9.5" r="3.5" fill="none"/>
+    </g>
+  </g>
+</svg>
