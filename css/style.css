@@ -56,6 +56,12 @@ body {
   text-decoration: none;
 }
 
+input[type="text"],
+input[type="button"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
 /* Elements */
 .btn {
   border-radius: 8px !important;
