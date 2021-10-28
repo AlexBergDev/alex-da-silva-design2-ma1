@@ -26,6 +26,36 @@ body {
   border-radius: 8px !important;
 }
 
+.rounded-bottom-start {
+  border-radius: 0 0 0 8px;
+}
+
+.rounded-bottom-end {
+  border-radius: 0 0 8px 0;
+}
+
+.rounded-top-start {
+  border-radius: 8px 0 0 0;
+}
+
+.rounded-top-end {
+  border-radius: 0 8px 0 0;
+}
+
+.container-first {
+  margin-top: 80px;
+}
+
+.image_center {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shop-sidebar a {
+  text-decoration: none;
+}
+
 /* Elements */
 .btn {
   border-radius: 8px !important;
@@ -53,21 +83,24 @@ body {
 
 /* Navigation */
 .navbar-brand img {
-  height: 45px;
-  margin: -5px;
+  height: 35px;
   padding: 0px;
 }
 
 .navbar-hamburger_icon img {
-  max-width: 34px;
+  max-height: 34px;
 }
 
 .navbar-toggler {
   border: none;
 }
 
-.navbar-toggler-icon {
-  color: black !important;
+.nav-item ul a {
+  text-decoration: none;
+}
+
+.nav-icons img {
+  height: 18px;
 }
 
 /* Carousel */
@@ -78,7 +111,7 @@ body {
 }
 
 .carousel {
-  margin-top: 53px;
+  margin-top: 40px;
 }
 
 /* Product container */
@@ -99,6 +132,30 @@ body {
   opacity: 0.6;
 }
 
+.card a {
+  text-decoration: none;
+}
+
+.shop-categories_image {
+  filter: brightness(80%);
+}
+
+/* Products page */
+.product-image_main {
+  height: 510px;
+}
+
+.product-image_side img {
+  height: 255px;
+}
+
+.product-image_main:hover,
+.product-image_side img:hover {
+  transition: 0.1s ease;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 /* Newsletter container */
 .newsletter-container {
   margin-bottom: 110px;
@@ -109,24 +166,12 @@ body {
   background-color: var(--accent);
 }
 
-.cta {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .review-side {
   height: 610px;
 }
 
 .image-review {
   object-fit: cover;
-}
-
-/* 404 page */
-.error-container {
-  margin-top: 100px;
 }
 
 /* Footer */
@@ -149,6 +194,15 @@ footer a {
   .icon-container i {
     font-size: 20px !important;
     padding: 2px;
+  }
+
+  /* Products page */
+  .product-image_main {
+    height: 360px;
+  }
+
+  .product-image_side img {
+    height: 180px;
   }
 }
 
